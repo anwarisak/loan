@@ -1,0 +1,8 @@
+# GET http://localhost/loan/customer_result.php
+
+# GET http://localhost/loan/loans.php
+
+GET http://localhost/loan/payer.php
+
+# GET http://localhost/loan/users.php
+
