@@ -6,7 +6,7 @@ if (isset($_GET)) {
     $response = array();
 
 
-    $res = $conn->query("select fullname, email, number, bailnumber, date from customers");
+    $res = $conn->query("select fullname, email, number, responsible_number, date from customers");
 
     if ($res->rowCount() > 0) {
 
@@ -14,7 +14,7 @@ if (isset($_GET)) {
             array_push($response, array(
                 'status' => "true", 'fullname' => $row['fullname'], 'email' => $row['email'],
                 'number' => $row['number'],
-                'bailnumber' => $row['bailnumber'], 'date' => $row['date']
+                'responsible_number' => $row['responsible_number'], 'date' => $row['date']
             ));
         }
     } else {

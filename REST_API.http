@@ -1,8 +1,12 @@
 # GET http://localhost/loan/customer_result.php
 
-# GET http://localhost/loan/loans.php
+# GET http://localhost/loan/load_all_customer.php
 
-GET http://localhost/loan/payer.php
+# GET http://localhost/loan/load_all_scheme_type.php
+
+# GET http://localhost/loan/monthly_result.php
 
 # GET http://localhost/loan/users.php
+
+# GET http://localhost/loan/load_all_account.php
 

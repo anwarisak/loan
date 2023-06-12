@@ -5,10 +5,9 @@ if (isset($_POST["fullname"])) {
     $fullname = $_POST["fullname"];
     $email = $_POST["email"];
     $number = $_POST["number"];
-    $bailnumber = $_POST["bailnumber"];
+    $responsible_number = $_POST["responsible_number"];
 
-    $res = $conn->query("insert into customers(fullname,email, number, bailnumber)values('{$fullname}','{$email}','{$number}','{$bailnumber}')");
-
+    $res = $conn->query("insert into customers(fullname,email, number, responsible_number)values('{$fullname}','{$email}','{$number}','{$responsible_number}')");
 
     if ($res) {
         echo "the customer has been registered ";
